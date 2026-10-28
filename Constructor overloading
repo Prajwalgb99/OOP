@@ -1,0 +1,22 @@
+public class Demo {
+    public static void main(String[] args) {
+    Student s1 =new Student("Prajwal",22,151,"VVCE");
+    Student s2 =new Student();
+    }
+}
+
+class Student{
+    String name;   //instance variables
+    int age;
+    int rollNumber;
+    String college;
+
+    Student(String name, int age, int rollNumber,String college){
+        
+    }
+    Student(){
+        
+    };
+    
+}
+
