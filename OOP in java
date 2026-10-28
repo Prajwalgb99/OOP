@@ -1,0 +1,30 @@
+public class Demo {
+    public static void main(String[] args) {
+    Student s1 =new Student();
+    s1.name="Prajwal";     
+    s1.age=22;
+    s1.rollNumber=151;
+    s1.college="VVCE";
+
+    s1.markAttendance();
+    s1.print();
+    }
+}
+
+class Student{
+    String name; //characteristics or data 
+    int age;
+    int rollNumber;
+    String college;
+
+    void markAttendance(){      // Behaviours
+        System.out.println("Attendence Marked by "+name);
+    }
+
+    void print(){
+        System.out.println(name+"," +age +"," +rollNumber+"," +college);
+    }
+
+
+}
+
